@@ -4,7 +4,7 @@ For this assignment you will make a program that estimates the value of a square
 
 ## Specifications
 
-Ask the user to input a number (`s`) and then have them guess what the square root of that number is (`x0`). The value of `x0` should be positive. Once you have those two values, apply the formula `(x1 = x0 + s / x0) / 2`. The value of `x1` will be a better approximation than `x0`. Apply the formula three more times by replacing `x0` with the new approximation (`x1`).
+Ask the user to input a number (`s`) and then have them guess what the square root of that number is (`x0`). The value of `x0` should be positive. Once you have those two values, apply the formula `x1 = (x0 + s / x0) / 2`. The value of `x1` will be a better approximation than `x0`. Apply the formula three more times by replacing `x0` with the new approximation (`x1`).
 
 Your final approximation will be `x1`.
 
